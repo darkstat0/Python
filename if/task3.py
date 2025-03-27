@@ -1,6 +1,5 @@
 try:
     a = int(input("Input: "))
-    b = a // 3
-    print("Output:", b)
+    print("Output: juft" if a % 2 == 0 else "Output: toq")
 except ValueError:
     print("Dasturga son kiriting!")
