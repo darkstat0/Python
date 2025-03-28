@@ -1,12 +1,5 @@
 try:
-    a = int(input("Input a: "))
-    b = int(input("Input b: "))
-
-    if a > b:
-        print(f"katta son {a}")
-    elif a < b:
-        print(f"katta son {b}")
-    else:
-        print("Voy ular teng")
+    a = int(input("Input: "))
+    print("Output: juft" if a % 2 == 0 else "Output: toq")
 except ValueError:
     print("Dasturga son kiriting!")
