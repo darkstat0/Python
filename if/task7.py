@@ -7,5 +7,5 @@ try:
 		print('manfiy')
 	else:
 		print(a)
-except ValueError:
+except (ValueError, EOFError):
 	print('Dasturga son kiriting!')

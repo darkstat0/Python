@@ -7,5 +7,5 @@ try:
         print("Output:", a * 2)
     elif 10 == a:
         print("Output:", 22)
-except ValueError:
+except (ValueError, EOFError):
     print("Dasturga son kriting!")

@@ -8,5 +8,5 @@ try:
         print(f"katta son {b}")
     else:
         print("Voy ular teng")
-except ValueError:
+except (ValueError, EOFError):
     print("Dasturga son kiriting!")

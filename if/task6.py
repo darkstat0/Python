@@ -9,5 +9,5 @@ try:
 		print(f"katta son b={b}")
 	elif c > a and c > b:
 		print(f"katta son c={c}")
-except ValueError:
+except (ValueError, EOFError):
 	print("Dasturga son kiriting!")
