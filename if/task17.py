@@ -1,15 +1,16 @@
-try:
-	a = int(input("Berilgan a: "))
-	b = int(input("Berilgan b: "))
-	c = int(input("Berilgan c: "))
+def count_positive_numbers(a, b, c):
+    count = 0
+    if a > 0:
+        count += 1
+    if b > 0:
+        count += 1
+    if c > 0:
+        count += 1
+    return count
 
-	if a > 0 and b > 0 and c > 0:
-		print("Natija: 3")
-	elif a > 0 and b < 0 and c < 0:
-		print("Natija: 2")
-	elif a < 0 and b < 0 and c > 0:
-		print("Natija: 2")
-	elif a < 0 and b > 0 and c < 0:
-		print("Natija: 2")
-except Exception as e:
-	print("Error:", e)
+a = int(input("Berilgan a: "))
+b = int(input("Berilgan b: "))
+c = int(input("Berilgan c: "))
+
+result = count_positive_numbers(a, b, c)
+print(f"Natija: {result}")
