@@ -1,8 +1,8 @@
 a = int(input("Berilgan a: "))
-son = 0
+sum = 0
 
-for i in range(son, a+1):
+for i in range(sum, a+1):
 	if i%2 == 1:
-		son = son + i
+		sum = sum + i
 
-print("Natija:", son)
+print("Natija:", sum)
