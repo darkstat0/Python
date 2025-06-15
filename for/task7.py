@@ -6,4 +6,4 @@ for i in range(a, b+1):
 	if (i & 1) == 0:
 		son += 1
 
-print(son)
+print("Natija:", son)
