@@ -1,5 +1,5 @@
 a = int(input("Berilgan a: "))
-n = int(input("Berilgan b: "))
+n = int(input("Berilgan n: "))
 son = 1
 
 for i in range(n):
