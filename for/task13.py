@@ -12,3 +12,14 @@ for i in range(son, n):
 expression = " + ".join(parts)
 
 print("Natija:", expression + " =", son)
+
+
+
+# temp = 0;
+# s = 0; 
+
+# for i in range(5):
+#     temp = temp * 10 + a
+#     s = s + temp    
+        
+# print(s)     
